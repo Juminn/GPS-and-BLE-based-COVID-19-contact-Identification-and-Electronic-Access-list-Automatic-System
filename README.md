@@ -11,13 +11,19 @@ if you want check implementation of server, click [this](https://github.com/dhkf
 
 ## 2. environment
 - java 1.8.0
-- 
+- Android Studio Arctic Fox | 2020.3.1
 
 ## 3. Requirements
 - The Android device requires at least API 21 (Android 5.0).
 
+## 4. Function
 
-## 2. how it works
+this is a form of automatically creating an electronic access list.
+
+
+
+
+## 4. how it works
 1. Detect habits through cam
 2. Helps users stop a habit by notifying them
   ### 2.1 currently detected habit is
