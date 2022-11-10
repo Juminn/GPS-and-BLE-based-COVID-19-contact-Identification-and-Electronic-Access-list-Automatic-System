@@ -1,5 +1,37 @@
-# GPS-based-Covid-19-tracking
-GPS&블루투스 기반 Covid-19 확진자 동선 파악을 위한 서비스
+# GPS와 BLE 기반 COVID-19 접촉자 파악 및 전자 출입 명부 자동 시스템
+
+## 1. overview
+This repository is the implementation of the following papers.
+
+[GPS and BLE-based COVID-19 contact Identification and Electronic Access list Automatic System](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002850941)
+by jumin-park, jungwon-kim ... this paper posted on  Knowledge Information Technology and Systems(JKITS) in 7 May 2022
+
+this repository is the implementation of the User mobile app.
+if you want check implementation of server, click [this](https://github.com/dhkfkr134/GPS-based-Covid-19-tracking-2.git)
+
+## 2. environment
+- java 1.8.0
+- 
+
+## 3. Requirements
+- The Android device requires at least API 21 (Android 5.0).
+
+
+## 2. how it works
+1. Detect habits through cam
+2. Helps users stop a habit by notifying them
+  ### 2.1 currently detected habit is
+  1. nail biting
+  2. lip biting
+  3. chin on hand
+
+## 3. how to Run
+$ python act_detector.py
+
+
+
+
+
 
 
 현재 코로나바이러스때문에 많은 사람들의 생활범위와 삶의 질을 빼앗기고 있다. 사람들은 코로나바이러스 뿐만 아니라 코로나사태 종식이후에도 많은 바이러스들에게서 위협받을 수 있다. 그래서 바이러스 확산을 확실하게 막고자, 위치기반으로 한 사용자 위치추적 시스템을 개발하였다. 감염자가 계속해서 늘어나는 위험상황에서 사용자들은 이 어플리케이션을 이용하여 감염확산을 막는데 기여할 수 있다. 본 시스템은 사용자들의 최근2주간 위치를 기반으로 확진자와 접촉이 있는지 확인한다. 사용자가 어플리케이션을 실행했다면 위치를 제공하고, 본 시스템을 사용하는 업소에 입장할 때에 번거롭게 QR체크 등을 하지 않아도 된다. 업소의 단말기를 지나갈 때 본 어플리케이션을 사용하는 중이라면 비프음을 통하여 출입 인증을 받을 수 있다. 또한 확진자가 발생하면 동선이 겹치는지 확인하고, 확진자와의 접촉이 의심되면 카카오톡 메세지로 알림톡을 받는다. 
