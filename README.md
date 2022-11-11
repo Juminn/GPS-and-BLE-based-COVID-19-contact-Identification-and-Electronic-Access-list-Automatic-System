@@ -13,6 +13,7 @@ if you want check implementation of server, click [this](https://github.com/dhkf
 - java 1.8.0
 - Android Studio Arctic Fox | 2020.3.1
 - Node.js
+- mySQL
 
 ## 3. Requirements
 - The Android device requires at least API 21 (Android 5.0).
