@@ -12,7 +12,7 @@ if you want check implementation of server, click [this](https://github.com/dhkf
 ## 2. environment
 - java 1.8.0
 - Android Studio Arctic Fox | 2020.3.1
-- Node.js
+- Spring boot
 - mySQL
 
 ## 3. Requirements
